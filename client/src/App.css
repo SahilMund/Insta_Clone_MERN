@@ -1,0 +1,198 @@
+@import url(https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap);
+
+/* navbar */
+a {
+  color: #000 !important;
+}
+
+.brand-logo,
+.card h2 {
+  font-family: 'Grand Hotel', cursive;
+}
+
+/* signin and signup page */
+.auth-card {
+  padding: 40px;
+  margin: 30px auto;
+  max-width: 400px;
+  text-align: center;
+}
+
+.mycard {
+  margin-top: 50px;
+}
+
+.card {
+  box-shadow: 2px 2px 2px 10px #f5f5f5 4px 4px 2px 20px grey;
+}
+
+.mycard button {
+  margin-top: 20px;
+}
+
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid #527bc7 !important;
+  box-shadow: 0 1px 0 0 #527bc7 !important;
+}
+
+.input-field input[type=password]:focus {
+  border-bottom: 1px solid #527bc7 !important;
+  box-shadow: 0 1px 0 0 #527bc7 !important;
+}
+
+.footer-card {
+  padding: 15px;
+}
+
+.link-route {
+  padding-left: 4px;
+  color: #00f !important;
+}
+
+.image-app {
+  display: flex;
+  justify-content: center;
+}
+
+.image-app img {
+  margin: 10px;
+  max-width: 150px;
+  cursor: pointer;
+}
+
+#toast-container{
+  top:30px !important;
+  right:20px !important;
+  left:auto !important;
+ 
+}
+
+.collection-item{
+  width:100%;
+}
+/*home page or for loading  */
+svg{
+  width:50;
+  height:50;
+ position:absolute;top:50%;left:50%;margin:-25px 0 0 -25px;fill:#c7c7c7;
+}
+
+
+/* myprofile pages */
+
+.profile-page{
+  display:flex;
+  justify-content: space-around;
+  margin:18px 0px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid grey;
+  max-width: 550px;
+ 
+ 
+}
+
+.follow{
+  display: flex;
+  justify-content: space-between;
+  width:109%;
+}
+
+.profile-gallery{
+  display:flex ;
+  flex-wrap: wrap ;
+  justify-content: space-between ;
+}
+
+.item-image{
+
+  width:50% ;
+  padding:5px ;
+ height:150px ;
+ cursor: pointer ;
+ 
+}
+
+.item-image:hover{
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+/* Home page */
+
+.home-card{
+  max-width: 500px;
+  height:max-content;
+
+  margin:20px auto;
+}
+
+.home-card h5{
+  padding: 8px;
+  font-size: 20px;
+  font-weight: bold;
+  color:#00f;
+
+
+}
+
+.card-content i{
+ cursor: pointer;
+}
+
+.edit__image{
+  position:relative;
+  left:140px;
+  top:-60px;
+}
+.material-icons:hover{
+  cursor:pointer;
+}
+.left{
+  color:pink ;
+  margin:10px 10px 10px 50px !important;
+}
+
+/* create or add a new post */
+.new-card {
+  padding: 40px;
+  margin: 30px auto;
+  max-width: 600px;
+  text-align: center;
+}
+
+
+/* footer */
+.page-footer{
+  padding-top: 0px !important;
+}
+
+body {
+  display: flex !important;
+  min-height: 100vh !important;
+  flex-direction: column !important;
+}
+
+main {
+  flex: 1 0 auto !important;
+}
+
+/* create post */
+.geeks { 
+  width:60%; 
+  height:300px; 
+} 
+.geeks img { 
+  width:100%; 
+  height:100%; 
+}
+
+/* navba  logout*/
+.logout__icon{
+  color:#c62828 !important;
+  cursor:pointer;
+  margin-right:50px;
+  margin-left:20px;
+}

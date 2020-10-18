@@ -2,6 +2,7 @@
 # Instagram Clone Using MERN 
 
 ## Deploy Link :-
+https://insta-web-app.herokuapp.com/
 
 ## <u>MERN heroku deploy</u> :-
 

@@ -19,17 +19,17 @@
 1. Move all the react files inside the client folder.
 2. Add the clinet folder in the server(i.e. node js ) folder.
 3.  type in terminal :-
-    ```
-    cd client
-	npm run build
-    ```
-    <strong>npm run build will converts all our react files into static html file</strong>
+```
+cd client
+npm run build
+```
+<strong>npm run build will converts all our react files into static html file</strong>
 
 <br>
 4.  We can't make the port static so we need to change it first from our nodejs server file
-	i.e. 
+
 ```
-     const port = process.env.PORT || 5000;
+const port = process.env.PORT || 5000;
 ```
 
 5.  Then we have to serve our static files(i.e. build folder) into production mode
